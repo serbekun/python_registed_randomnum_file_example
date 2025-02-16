@@ -1,0 +1,1 @@
+# python_registed_randomnum_file_example
