@@ -1,0 +1,6 @@
+
+hash - generate random number 1 ~ 1000
+show_x - show int variable "X"
+exit - stop system
+change_unap - start menu for change "user name" and "passworld"
+mun - show all command list
