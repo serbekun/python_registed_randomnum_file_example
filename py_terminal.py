@@ -3,9 +3,9 @@ import sys
 import random
 import subprocess
 
-x = int("0")
-x_read1 = int("0")
-a = int("0")
+x = 0
+x_read1 = 0
+a = 0
 
 current_directory = os.getcwd()  # updating info about now directory
 
@@ -64,7 +64,7 @@ else:
     if answer_if_sofoff == "n":
           with open("x.txt", "w") as file:
             file.write(x)
-          sys.exit()  # stop program     
+          exit(0)  # stop program     
     
 print("")
 
@@ -110,7 +110,7 @@ else:
                 save_x = str(x)
                 with open("x.txt", "w") as file: # X
                     file.write(save_x)
-                sys.exit()  # stop program
+                exit(0)  # stop program
             if answer == "mun":
                 with open("mun.txt", "r") as file:
                     mun = file.read()
@@ -124,4 +124,4 @@ else:
         save_x = str(x)
         with open("x.txt", "w") as file: # X
             file.write(save_x)
-        sys.exit()  # stop program
+        exit(0)  # stop program
